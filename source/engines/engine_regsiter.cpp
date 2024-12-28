@@ -13,7 +13,7 @@ namespace LM_INFER_ENGINE {
         void registerEngineCreator()
         {
             std::call_once(s_flag, [&]() {
-                printRegisteredEngineCreator();
+                logRegisteredEngineCreator();
             });
         }
 

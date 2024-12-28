@@ -13,7 +13,7 @@ namespace LM_INFER_ENGINE {
         class EngineFactory
         {
         public:
-            static BaseEngine* create(const EngineBaseConfig* config);
+            static BaseEngine* create(const BaseEngineConfig* config);
         };
 
     } // namespace ENGINE

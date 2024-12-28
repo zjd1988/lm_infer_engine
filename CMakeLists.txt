@@ -1,6 +1,6 @@
 # modify from https://github.com/AimRT/AimRT/blob/main/CMakeLists.txt
 cmake_minimum_required(VERSION 3.24)
-project(lm_infer_engine LANGUAGES C CXX)
+project(LM_INFER_ENGINE LANGUAGES C CXX)
 
 # Prevent variables from being reset by option
 # This setting allows predefined variables to take precedence for FetchContent_MakeAvailable()
